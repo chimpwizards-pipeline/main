@@ -1,0 +1,27 @@
+name: tools
+organization: git@github.com:chimpwizards-pipeline
+dependencies:
+  - path: actions/npm/build
+    git: git@github.com:chimpwizards-pipeline/npm-build.git
+    tags:
+      - pipeline
+      - actions 
+      - npm     
+  - path: actions/npm/publish
+    git: git@github.com:chimpwizards-pipeline/npm-publish.git
+    tags:
+      - pipeline
+      - actions 
+      - npm
+  - path: actions/docker-compose/build
+    git: git@github.com:chimpwizards-pipeline/docker-compose-build.git
+    tags:
+      - pipeline
+      - actions      
+      - docker
+  - path: actions/docker-compose/publish
+    git: git@github.com:chimpwizards-pipeline/docker-compose-publish.git
+    tags:
+      - pipeline
+      - actions 
+      - docker      
