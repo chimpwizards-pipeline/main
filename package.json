@@ -1,0 +1,28 @@
+{
+  "name": "@chimpwizard/pipeline",
+  "version": "1.0.0",
+  "description": "Magic happens everywhere",
+  "main": "index.js",
+  "bin": {
+    "w": "./index.js"
+  },
+  "scripts": {
+    "test": "",
+    "build": "",
+    "sayHi": "echo 'Hi'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm version patch",
+      "pre-commit": "npm test"
+    }
+  },
+  "author": "ndru@chimpwizard.com",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
